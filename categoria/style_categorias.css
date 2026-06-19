@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#F4FBFF;
+
+}
+
+/* HEADER */
+
+header{
+
+    background:#0B3C7D;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 50px;
+
+}
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:white;
+
+}
+
+.logo img{
+
+    width:40px;
+
+}
+
+nav ul{
+
+    list-style:none;
+    display:flex;
+    gap:30px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#81D4FA;
+
+}
+
+.activo{
+
+    color:#81D4FA;
+    font-weight:bold;
+
+}
+
+/* BANNER */
+ 
+.banner{
+
+    background:rgb(28, 137, 209);
+    color:white;
+    text-align:center;
+    padding:60px;
+
+}
+
+.banner h1{
+
+    font-size:42px;
+    margin-bottom:15px;
+
+}
+
+.banner p{
+
+    font-size:18px;
+
+}
+
+/* TARJETAS */
+
+.categorias{
+
+    width:90%;
+    margin:50px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    text-align:center;
+
+    box-shadow:0px 6px 15px rgba(0,0,0,.15);
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.imagen{
+
+    width:100%;
+
+    height:180px;
+
+    border:3px dashed #1E88E5;
+
+    background:#E1F5FE;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#1565C0;
+
+    margin-bottom:20px;
+
+}
+
+.card h2{
+
+    color:#1565C0;
+
+    margin-bottom:10px;
+
+}
+
+.card p{
+
+    color:#555;
+
+    margin-bottom:20px;
+
+}
+
+.card button{
+
+    background:#1E88E5;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.card button:hover{
+
+    background:#0B3C7D;
+
+}
+
+/* FOOTER */
+
+footer{
+
+    background:#0B3C7D;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:50px;
+
+}
