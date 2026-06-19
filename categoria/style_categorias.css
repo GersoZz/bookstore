@@ -204,20 +204,47 @@ footer{
 
 }
 
+/* MENU HAMBURGUESA */
+
+#menu{
+    display:none;
+}
+
+.hamburguesa{
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
+}
+
 /* RESPONSIVE */
 
 @media(max-width:768px){
 
     header{
-        flex-direction:column;
+        flex-wrap:wrap;
+        justify-content:flex-start;
         gap:15px;
         padding:18px;
     }
 
+    .hamburguesa{
+        display:block;
+    }
+
+    nav{
+        width:100%;
+    }
+
     nav ul{
+        display:none;
         flex-direction:column;
         text-align:center;
         gap:10px;
+    }
+
+    #menu:checked ~ nav ul{
+        display:flex;
     }
 
     .banner{
