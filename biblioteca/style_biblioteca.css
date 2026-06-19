@@ -186,4 +186,49 @@ footer{
     background:#89BDD6;
 }
 
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+        gap:10px;
+    }
+
+    .banner{
+        flex-direction:column;
+    }
+
+    .banner1,
+    .banner2{
+        flex: auto;
+        width:100%;
+    }
+
+    .libros{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .libro{
+        width:100%;
+    }
+
+    .detalle-final{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .col{
+        width:100%;
+    }
+
+}
 

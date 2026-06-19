@@ -99,3 +99,25 @@ button{
 button:hover{
     background-color: #17376B;
 }
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+        gap:10px;
+    }
+
+    section{
+        width:90%;
+    }
+
+}
